@@ -1,0 +1,79 @@
+.ant-menu-light .ant-menu-item-selected {
+    background: linear-gradient(45deg, rgba(0, 98, 255, 1) 0%, rgba(76, 177, 251, 1) 100%);
+    color: #FFFFFF;
+}
+
+.ant-layout .ant-layout-header {
+    background: #FFFFFF;
+    padding-inline: 10px;
+}
+
+.sidebar .ant-divider-horizontal {
+    width: 70%;
+    min-width: 70%;
+    margin: 24 auto;
+    margin-left: 32px;  
+}
+
+.NameIcon {
+    padding-top: 15px;
+    padding-left: 15px;
+    color : #44444F;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ant-btn-primary {
+    background-color: #1677ff ;
+    color: #fff;
+}
+
+.ant-tabs-card .ant-tabs-nav .ant-tabs-tab-active{
+    background-color: #1677ff;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #fff !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab{
+    padding: 0px !important;
+    background: #FFFFFF ;
+}
+
+.ant-dropdown-menu-submenu .ant-dropdown-menu {
+    background-color: #44444F !important;
+    color: #FFFFFF;
+}
+
+.my-pagination .ant-pagination-total-text {
+  font-size: 14px;
+  color: #44444F;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.ant-layout .ant-layout-sider-zero-width-trigger {
+    top: 10px;
+}
+
+/*
+@media (max-width: 1200px) {
+    .sidebar {
+        width: 0;
+        flex: 0 0 0;
+        min-width: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 1201px) {
+    .sidebar {
+        width: 260px;
+        flex: 0 0 260px;
+        min-width: 260px !important;
+    }
+}
+*/

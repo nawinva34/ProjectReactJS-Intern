@@ -1,0 +1,102 @@
+// Modal Error Messages
+.ant-modal-confirm .ant-modal-confirm-btns {
+    text-align: center !important;
+    margin-top: 12px !important;
+}
+
+.modal_error .ant-modal .ant-modal-content {
+    width: 334px;
+    height: 190px;
+}
+
+.ant-modal-confirm .ant-modal-confirm-body {
+    display: block !important;
+}
+
+.ant-modal-confirm-success .ant-modal-confirm-body>.anticon {
+    display: none !important;
+}
+
+.ant-modal-confirm .ant-modal-confirm-body .ant-modal-confirm-content {
+    font-family: 'Montserrat';
+    font-size: 14px !important;
+    margin-inline-start: 0px !important;
+    text-align: center !important;
+}
+
+.ant-modal-confirm-error .ant-modal-confirm-body>.anticon {
+    display: none !important;
+}
+
+
+//
+:where(.css-dev-only-do-not-override-6scq8h).ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+    border-color: #28C76F;
+}
+
+:where(.css-dev-only-do-not-override-6scq8h).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    height: 38px;
+    padding: 0 11px;
+}
+
+:where(.css-dev-only-do-not-override-6scq8h).ant-select-single .ant-select-selector .ant-select-selection-item, :where(.css-dev-only-do-not-override-6scq8h).ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+    padding: 0;
+    line-height: 36px;
+    transition: all 0.3s;
+}
+
+.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload.ant-upload-select {
+    width: 157px;
+    height: 157px;
+    margin: 0px;
+}
+
+:where(.css-dev-only-do-not-override-6scq8h).ant-upload-wrapper.ant-upload-picture-card-wrapper {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+:where(.css-dev-only-do-not-override-6scq8h).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload.ant-upload-select .ant-upload {
+    background: #cacaca;
+    border-radius: 7px !important;
+}
+
+:where(.css-dev-only-do-not-override-6scq8h).ant-form-item .ant-form-item-label >label {
+    color: #44444F;
+}
+
+:where(.css-dev-only-do-not-override-6scq8h).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-6scq8h).ant-table-wrapper .ant-table-thead >tr>td {
+    background: #F3F2F7;
+
+}
+
+.table-relation .ant-table-tbody > tr > td:last-child {
+    padding: 0 !important;
+}
+
+.formModalContact .ant-form-item {
+    margin-bottom: 10px !important;
+}
+
+.ant-divider-horizontal {
+    min-width: 0px;
+}
+
+//Button disabled
+:where(.css-dev-only-do-not-override-6scq8h).ant-btn-primary:disabled {
+    background-color: rgba(0, 0, 0, 0.04);
+    color: rgba(0, 0, 0, 0.25);
+    border-color: #d9d9d9;
+}
+
+.ant-upload-wrapper .ant-upload-drag .ant-upload-btn {
+    height : 200px !important;
+}
+
+
+:where(.css-dev-only-do-not-override-6scq8h).ant-upload-wrapper .ant-upload-drag {
+    border: 3px dashed #7666F8;
+    background: #FFFFFF;
+}
+
+

@@ -1,0 +1,21 @@
+import Icon from "@ant-design/icons";
+
+const IntersectSvg = () => (
+  <svg
+    width="405"
+    height="408"
+    viewBox="0 0 405 408"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      opacity="0.15"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M403.379 408H50C22.3858 408 0 385.614 0 358V1.35346C10.5476 0.457268 21.2204 0 32 0C238.002 0 405 166.998 405 373C405 384.803 404.452 396.477 403.379 408Z"
+      fill="#267FFF"
+    />
+  </svg>
+);
+
+export const IntersectIcon = (props) => <Icon component={IntersectSvg} {...props} />;

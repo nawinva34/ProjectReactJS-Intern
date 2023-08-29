@@ -1,0 +1,7 @@
+.bgprofile {
+    min-height: 100px;
+    min-width: 100px;
+    background-image: url(../img/BgPlayer.png);
+    overflow: hidden;
+    background-size: cover;
+} 
